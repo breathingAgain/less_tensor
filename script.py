@@ -1,5 +1,4 @@
 print("Hello world")
-a=5
-print('a+15=' a+15)
+print(15+15)
 
 
