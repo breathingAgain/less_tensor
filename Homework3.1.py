@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Программа движения по оси OX"""
 list = [0, 0]
 print('Left/Right/Up/Down?')
 word = input()
