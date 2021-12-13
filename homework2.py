@@ -1,4 +1,5 @@
 #!/bin/bash
+"""Математические действия с числами"""
 # task1
 a = float(input('Input a: '))
 b = float(input('Input b: '))
