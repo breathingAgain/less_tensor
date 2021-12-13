@@ -1,5 +1,6 @@
 
 #!/usr/bin/env python
+"""Вычисление корней квадратного уравнения"""
 import math
 print("Enter odds")
 a = float(input("a = "))
