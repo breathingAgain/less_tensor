@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Работа с матрицами, модулем numpy"""
+"""Работа с матрицами, библиотекой numpy"""
 import numpy as np
 matrix = np.random.randint(0,30, size=(3,3))
 print('Матрица: \n',matrix)
