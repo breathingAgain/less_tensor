@@ -3,9 +3,11 @@ import os
 
 
 def moleculs(odds):
+    """Подсчет колличества молекул"""
     count = 0
     while True:
-        if (odds[0] // 2 != 0 and odds[1] // 6 != 0 and odds[2] // 1 != 0):
+        if (odds[0] // 2 != 0 and 
+            odds[1] // 6 != 0 and odds[2] // 1 != 0):
             odds[0] -= 2
             odds[1] -= 6
             odds[2] -= 1
