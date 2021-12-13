@@ -1,4 +1,5 @@
 def fibonaccinum(a):
+    """Считает число фибоначи"""
     if a == 0 or a == 1:
         return a
 
