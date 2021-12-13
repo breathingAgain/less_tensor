@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 list = [0, 0]
+"""Движение по оси OX неограниченное колличесто раз"""
 while True:
     print('Left/Right/Up/Down?')
     word = input()
