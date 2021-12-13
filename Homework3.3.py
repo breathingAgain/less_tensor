@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 import math
 print("Enter odds")
