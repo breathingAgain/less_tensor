@@ -1,6 +1,6 @@
-
 #!/usr/bin/env python
 def Sum_i(*args):
+    """Считает сумму всех аргументов"""
     sum = 0
     for i in args:
         sum += i
