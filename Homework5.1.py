@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Условия хорошего пароля"""
 import re
 print('Введите пароль: ')
 passw = input()
