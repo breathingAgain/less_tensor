@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 def transform_en(str):
+    """Кодировка списка строк"""
     for i in range(len(str)):
         str[i] = str[i].encode('utf-8')
     return str
 
 
 def transform_de(str):
+    """Декодирование списка байтов"""
     for i in range(len(str)):
         str[i] = str[i].decode('utf-8')
     return str
